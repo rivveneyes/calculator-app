@@ -14,6 +14,7 @@
 .clear{
 float: left;
 height: 24px;
+width: 30px;
 }
 .clear:active{
 background-color: grey;

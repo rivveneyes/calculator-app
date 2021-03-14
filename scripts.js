@@ -2,7 +2,6 @@ const orderlist= document.querySelector(".input-buttons");
 const equals = document.querySelector(".equals");
 const clearButton = document.querySelector(".clear");
 const input=document.querySelector(".cal-display");
-
 let mathSymbol= "";
 let firstNumber = null;
 let secondNumber= null;
@@ -14,21 +13,14 @@ orderlist.addEventListener("click", (e)=>{
         return
     }
     if( clickedBox.className=="symbol"&& input!==""){
-        
         mathSymbol=clickedBox.textContent;
-        console.log(mathSymbol)
         firstNumber=parseFloat(input.textContent);
-
         return
-        } 
-    
-    }
-    
+  }  }
     if(secondNumber==null){
         switch(clickedBox.className){
      case "symbol":
         mathSymbol=clickedBox.textContent;
-        console.log(mathSymbol);
      break
      case"number":
        input.textContent=clickedBox.textContent;
@@ -70,7 +62,6 @@ orderlist.addEventListener("click", (e)=>{
         mathSymbol= clickedBox.textContent ;}
     }
 })
-
 equals.addEventListener("click", ()=>{
     if(secondNumber!==null&& mathSymbol!=="" ){  
         debugger
@@ -98,7 +89,6 @@ equals.addEventListener("click", ()=>{
         }
     }
 })
-
 clearButton.addEventListener('click', ()=>{
     firstNumber=null;
     secondNumber=null;
