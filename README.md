@@ -1,5 +1,5 @@
 # calculator-app
-<h2>Simple To-Do-App made with JS,HTML,CSS</h2>
+<h2>Simple Calculator-App made with JS,HTML,CSS</h2>
 <p>To try click <a href="https://rivveneyes.github.io/calculator-app/">HERE</a></p>
 <img src="/Calculator-App.png" alt="thumbnail of Calculator-App">
 <h3>SUMMARY</h3>
