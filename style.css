@@ -5,7 +5,8 @@
     padding: 0;
 }
 .calc-body{  
-    min-width: 30%;
+    min-width: 20%;
+    max-width: 45%;
     margin: auto;
     margin-top: 60px;
     width: fit-content;
