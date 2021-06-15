@@ -6,5 +6,6 @@
 <p>This app took me about 3 days to build. this biggest challenge for me keeping track of what step was occuring and debugging when I wouldn't get
 my desired result.</p>
 <h3>AUTHOR</h3>
-Joshua Garcia- full-stack Developer <a href="https://rivveneyes.github.io/">Website</a> |
- 
+Joshua Garcia- <a href="https://joshua-personal-website.herokuapp.com/">My Site
+  </a>|<a href="https://www.linkedin.com/in/joshua-garica-04351520b/">Linkedin
+  </a>
